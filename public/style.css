@@ -1,0 +1,17 @@
+#spots-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+article {
+  padding: 1.5rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+article h2 {
+  margin-bottom: 0.5rem;
+}
