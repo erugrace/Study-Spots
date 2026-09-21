@@ -15,7 +15,7 @@ app.get("/api/spots/:slug", (req, res) => {
 
   if (!selectedSpot) {
     return res.status(404).json({
-      message: "Study spot not found"
+      error: "Study spot not found"
     });
   }
 
