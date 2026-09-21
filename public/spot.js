@@ -7,14 +7,20 @@ fetch(`/api/spots/${slug}`)
     const container = document.getElementById("spot-details");
 
     container.innerHTML = `
-      <h1>${data.name}</h1>
-      <p><strong>Location:</strong> ${data.location}</p>
-      <p><strong>Noise Level:</strong> ${data.noiseLevel}</p>
-      <p><strong>WiFi:</strong> ${data.wifi ? "Yes" : "No"}</p>
-      <p><strong>Best For:</strong> ${data.bestFor}</p>
-      <p><strong>Description:</strong> ${data.description}</p>
+  <img src="${data.image}" alt="${data.name}">
 
-      <a href="/" role="button">Back to all study spots</a>
-    `;
+  <h1>${data.name}</h1>
+
+  <p><strong>Location:</strong> ${data.location}</p>
+
+  <p><strong>Noise Level:</strong> ${data.noiseLevel}</p>
+
+  <p><strong>WiFi:</strong> ${data.wifi ? "Yes" : "No"}</p>
+
+  <p><strong>Best For:</strong> ${data.bestFor}</p>
+
+  <p><strong>Description:</strong> ${data.description}</p>
+
+  <a href="/" role="button">Back to all study spots</a>
+`;
   });
-  
