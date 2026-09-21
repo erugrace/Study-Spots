@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "UAPB Library",
+    "slug": "uapb-library",
+    "location": "University of Arkansas at Pine Bluff Campus",
+    "noiseLevel": "Quiet",
+    "wifi": true,
+    "bestFor": "Focused individual study",
+    "description": "A quiet indoor space with tables, seating, and WiFi that works well for reading, assignments, and focused study sessions.",
+    "image": "/images/library.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Student Center",
+    "slug": "student-center",
+    "location": "UAPB Campus",
+    "noiseLevel": "Moderate",
+    "wifi": true,
+    "bestFor": "Group study",
+    "description": "A more social study environment that works well for meeting classmates, working on group projects, or studying between classes.",
+    "image": "/images/student-center.jpg"
+  },
+  {
+    "id": 3,
+    "name": "STEM Building",
+    "slug": "stem-building",
+    "location": "UAPB Campus",
+    "noiseLevel": "Quiet",
+    "wifi": true,
+    "bestFor": "Math, science, and coding work",
+    "description": "A good location for technical coursework, especially when working on programming assignments, math problems, or science-related projects.",
+    "image": "/images/stem-building.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Campus Courtyard",
+    "slug": "campus-courtyard",
+    "location": "UAPB Campus",
+    "noiseLevel": "Moderate",
+    "wifi": true,
+    "bestFor": "Casual outdoor studying",
+    "description": "An outdoor option for students who enjoy fresh air while reading notes, reviewing flashcards, or doing lighter coursework.",
+    "image": "/images/courtyard.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Residence Hall Lounge",
+    "slug": "residence-hall-lounge",
+    "location": "Student Residence Area",
+    "noiseLevel": "Moderate",
+    "wifi": true,
+    "bestFor": "Late-night studying",
+    "description": "A convenient study option for students who want to work close to their room, especially during evenings or late-night study sessions.",
+    "image": "/images/lounge.jpg"
+  }
+]
