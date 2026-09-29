@@ -13,11 +13,11 @@ fetch(`/api/spots/${slug}`)
 
   <p><strong>Location:</strong> ${data.location}</p>
 
-  <p><strong>Noise Level:</strong> ${data.noiseLevel}</p>
+  <p><strong>Noise Level:</strong> ${data.noiselevel}</p>
 
   <p><strong>WiFi:</strong> ${data.wifi ? "Yes" : "No"}</p>
 
-  <p><strong>Best For:</strong> ${data.bestFor}</p>
+  <p><strong>Best For:</strong> ${data.bestfor}</p>
 
   <p><strong>Description:</strong> ${data.description}</p>
 
