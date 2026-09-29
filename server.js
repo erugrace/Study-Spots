@@ -1,13 +1,11 @@
 import express from "express";
-import spots from "./data/spots.json" with { type: "json" };
+import spotsRouter from './routes/spots.js'
 const app = express();
-
+app.use("/api/spots", spotsRouter);
 const PORT = 3000;
 
 app.use(express.static("public"));
-app.get("/api/spots", (req, res) => {
-  res.json(spots);
-});
+
 app.get("/api/spots/:slug", (req, res) => {
   const selectedSpot = spots.find(
     spot => spot.slug === req.params.slug
